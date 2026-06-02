@@ -6,11 +6,11 @@ void fractalTreeT(Turtle *turtle, float length, int depth) {
     else turtleSetColor(turtle, 0, 200, 0);
     turtleForward(turtle, length);
     turtleLeft(turtle, 45);
-    fractalTreeT(turtle, length * 0.65f, depth - 1);
+    fractalTreeT(turtle, length * 0.7f, depth - 1);
     turtleRight(turtle, 45);
     fractalTreeT(turtle, length * 0.75f, depth - 1);
     turtleRight(turtle, 45);
-    fractalTreeT(turtle, length * 0.55f, depth - 1);
+    fractalTreeT(turtle, length * 0.7f, depth - 1);
     turtleLeft(turtle, 45);
     turtleBackward(turtle, length);
 }
